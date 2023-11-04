@@ -5,7 +5,7 @@ For use with [Bike Outliner](https://www.hogbaysoftware.com/bike/).
 This set of scripts was initially developed by [Jonathan Sterling](https://git.sr.ht/~jonsterling/bike-convertors), however I wanted to
 focus more on exporting stylish HTML. Sure you could use a different markdown renderer, but I like being able to swap out the included CSS file on the fly.
 
-[Sakura CSS](https://github.com/oxalorg/sakura/) is included by default.
+[breezy](https://github.com/fkscott/breezy) is included for styling exported outlines.
 
 In addition to adding a style sheet to exported HTML, this version also supports the proper conversion of links to `<a>` tags and inserts code blocks for Bike's row type of the same name.
 

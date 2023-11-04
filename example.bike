@@ -33,6 +33,24 @@
           </li>
         </ul>
       </li>
+      <li id="Fe" data-type="heading">
+        <p>Text Wrap</p>
+      </li>
+      <li id="Bn">
+        <p>According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.</p>
+      </li>
+      <li id="VG" data-type="hr">
+        <p/>
+      </li>
+      <li id="XC" data-type="heading">
+        <p>Mixed formatting</p>
+      </li>
+      <li id="al">
+        <p><em><strong>When you see the sun</strong></em><span> </span><code><em><mark><s><strong>fly through the day</strong></s></mark></em></code><span>. </span><mark>Forget the things you wish I'd never say.</mark><span> A </span><s>wishful mind</s><span> is </span><em>often then let down</em><span>. </span><strong>The tears have flown away</strong><span>. </span><mark>Let me drink my feelings down inside.</mark><span> I'll watch you run when I try to confide. I wish I never saw you graduate. </span><em><a href="https://genius.com/Stove-band-graduate-and-congratulate-lyrics"><strong>The year could fade away.</strong></a></em></p>
+      </li>
+      <li id="yp" data-type="hr">
+        <p/>
+      </li>
       <li id="hq" data-type="heading">
         <p>Rich Text</p>
         <ul>
@@ -138,10 +156,10 @@
               </li>
             </ul>
           </li>
-          <li id="XGP">
-            <p/>
-          </li>
         </ul>
+      </li>
+      <li id="pR">
+        <p/>
       </li>
     </ul>
   </body>

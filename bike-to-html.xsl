@@ -28,7 +28,7 @@
       <meta charset="UTF-8"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <meta http-equiv="X-UA-Compatible" content="ie=edge"></meta>
-      <link rel="stylesheet" href="styles/sakura.css" type="text/css"></link>
+      <link rel="stylesheet" href="styles/breezy.css" type="text/css"></link>
       <xsl:apply-templates select="node()|@*">
       </xsl:apply-templates>
     </xsl:copy>
@@ -65,7 +65,7 @@
             <xsl:apply-templates select="current-group()" />
           </ol>
         </xsl:when>
-        <xsl:when test="@data-type='unordered' or @data-type='task'">
+        <xsl:when test="@data-type='unordered'">
           <ul>
             <xsl:apply-templates select="current-group()" />
           </ul>
@@ -126,6 +126,10 @@
       <code>
         <xsl:apply-templates />
       </code>
+  </xsl:template>
+
+  <xsl:template match="xhtml:li[@data-type='hr']/xhtml:p">
+    <hr></hr>
   </xsl:template>
 
   <xsl:template match="xhtml:li[not(@data-type)]/xhtml:p">
